@@ -20,9 +20,14 @@ gcc tcpsyn.c -o syn
 ### Output
 
 >cosmo@#####:~/#####/Programming/C/TCP/TCPSYN$ sudo ./syn 
+
 >Are you root.. yes!
+
 >Packet from: 122.10.180.145 to: 127.0.0.1 sent.
+
 >Packet from: 190.13.111.170 to: 127.0.0.1 sent.
+
 >Packet from: 179.222.197.164 to: 127.0.0.1 sent.
+
 >Packet from: 137.209.152.40 to: 127.0.0.1 sent.
 
