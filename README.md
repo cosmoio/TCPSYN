@@ -11,7 +11,11 @@ IP wants to initiate a connection (SYN flag set). Obviously that is not the case
 
 ### Usage
 
+The default mode only sends packets to yourself 
+
 ./syn
+
+If you want to send anything to a different target change the source appropriately
 
 ### Compile Options 
 
@@ -22,12 +26,8 @@ gcc tcpsyn.c -o syn
 >cosmo@#####:~/#####/Programming/C/TCP/TCPSYN$ sudo ./syn 
 
 >Are you root.. yes!
-
 >Packet from: 122.10.180.145 to: 127.0.0.1 sent.
-
 >Packet from: 190.13.111.170 to: 127.0.0.1 sent.
-
 >Packet from: 179.222.197.164 to: 127.0.0.1 sent.
-
 >Packet from: 137.209.152.40 to: 127.0.0.1 sent.
 
